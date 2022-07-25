@@ -83,7 +83,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `pt4300`, `Multi-Agent-A-Star-Path-Finding`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+The project implements a virtual world consist of two types of agent herbivore and meat. Each agent uses A star algorithm to find their corresponding types of food and avoid collision between wall and other agent. Detail structure of the algorithm will be discuss in usage section.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -91,8 +91,8 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
+* [![cpp][cpp]][cpp-url]
+* [![unreal][unreal]][unreal-url]
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -100,6 +100,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
@@ -108,25 +109,18 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+
+Unreal Engine 4.24.3
+Visual Studio 2017(Recommended)
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Download [Visual Studio](https://visualstudio.microsoft.com/downloads/) and [Unreal Engine](https://www.epicgames.com/id/login?lang=en-US&noHostRedirect=true&redirectUrl=https%3A%2F%2Fstore.epicgames.com%2Fen-US%2Fdownload&client_id=875a3b57d3a640a6b7f9b4e883463ab4&prompt=pass_through)
 2. Clone the repo
    ```sh
    git clone https://github.com/pt4300/Multi-Agent-A-Star-Path-Finding.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+   
+3. Click Run
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -136,9 +130,14 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+1. The algorithm was implement based on traditional A Star approach with additional collision detection in their path generation process.
+The checking method consume additional computation power during path planning and thus there is limitation on numbers of agents to act situationally.
+<figure>
+<img src="images/collision_detection.jpg" alt="collision">
+ <figcaption>Collision Detection</figcaption>
+</figure>
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+2. This project act as a prototype for future application on multi-agent path finding.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -201,8 +200,8 @@ Project Link: [https://github.com/pt4300/Multi-Agent-A-Star-Path-Finding](https:
 [license-url]: https://github.com/pt4300/Multi-Agent-A-Star-Path-Finding/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/yuting-yu-5a34031b5
-[product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
+[product-screenshot]: images/initial.jpg
+[cpp]: https://img.shields.io/badge/c++-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[cpp-url]: https://nextjs.org/
+[unreal]: https://img.shields.io/badge/unreal-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[unreal-url]: https://reactjs.org/
