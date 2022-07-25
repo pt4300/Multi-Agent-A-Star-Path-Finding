@@ -118,8 +118,8 @@ Visual Studio 2017(Recommended)
    ```sh
    git clone https://github.com/pt4300/Multi-Agent-A-Star-Path-Finding.git
    ```
-   
-3. Click Run
+3. Double click uproject file
+3. Click Run once the unreal engine is loaded
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
