@@ -41,8 +41,6 @@
     <a href="https://github.com/pt4300/Multi-Agent-A-Star-Path-Finding"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/pt4300/Multi-Agent-A-Star-Path-Finding">View Demo</a>
-    ·
     <a href="https://github.com/pt4300/Multi-Agent-A-Star-Path-Finding/issues">Report Bug</a>
     ·
     <a href="https://github.com/pt4300/Multi-Agent-A-Star-Path-Finding/issues">Request Feature</a>
@@ -119,9 +117,10 @@ Visual Studio 2017(Recommended)
 2. Clone the repo
    ```sh
    git clone https://github.com/pt4300/Multi-Agent-A-Star-Path-Finding.git
+   ```
    
 3. Click Run
-   ```
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -201,7 +200,7 @@ Project Link: [https://github.com/pt4300/Multi-Agent-A-Star-Path-Finding](https:
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/yuting-yu-5a34031b5
 [product-screenshot]: images/initial.jpg
-[cpp]: https://img.shields.io/badge/c++-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[cpp]: https://img.shields.io/badge/c++-000000?style=for-the-badge
 [cpp-url]: https://nextjs.org/
-[unreal]: https://img.shields.io/badge/unreal-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[unreal]: https://img.shields.io/badge/unreal-20232A?style=for-the-badge
 [unreal-url]: https://reactjs.org/
