@@ -130,7 +130,7 @@ Visual Studio 2017(Recommended)
 ## Usage
 
 1. The algorithm was implement based on traditional A Star approach with additional collision detection in their path generation process.
-The checking method consume additional computation power during path planning and thus there is limitation on numbers of agents to act situationally.
+The checking method consume additional computation power during path planning and thus there is limitation on numbers of agents to act simultaneously.
 <figure>
 <img src="images/collision_detection.jpg" alt="collision">
  <figcaption>Collision Detection</figcaption>
